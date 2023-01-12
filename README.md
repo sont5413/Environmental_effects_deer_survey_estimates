@@ -1,6 +1,14 @@
-#### Project Summary: 
+####  
 
-The environmental factors below do not signiciantly influence estimates of deer density made from spotlight surveys.  Temperature was found to be the most influential predictor from a simple linear regression model (SLR) and two optimized machine learning models (i.e., random forest and gradient boosting optimzed via gridsearchcv).  The R<sup>2</sup> (i.e., proportion of variance explained by the model) of the selected linear model was poor (~ 0.10).  However, temperature was found to be a statistically significant predictor (p < 0.001).  The selected SLR found that for every 1 degree fahreheit increase in temperature, there was a 0.80 decrease in the deer density. Environmental factors: 
+#### Project Objective
+
+#### Methods: 
+
+This is deer spotlight survey data collected by the Department of the Interior in Great Smoky Mountains National Park from 1993-2003.
+
+#### Results: 
+
+The environmental factors below do not significantly influence estimates of deer density made from spotlight surveys.  Temperature was found to be the most influential predictor from a simple linear regression model (SLR) and two optimized machine learning models (i.e., random forest and gradient boosting optimzed via gridsearchcv).  The R<sup>2</sup> (i.e., proportion of variance explained by the model) of the selected linear model was poor (~ 0.10).  However, temperature was found to be a statistically significant predictor (p < 0.001).  The selected SLR found that for every 1 degree fahreheit increase in temperature, there was a 0.80 decrease in the deer density. Environmental factors: 
 
 * month of the year (numerical)
 * temperature (numerical)
@@ -11,11 +19,7 @@ The environmental factors below do not signiciantly influence estimates of deer 
 * fog (boolean)
 * moon phase (categorical)
 
-#### Dataset: 
-
-This is deer spotlight survey data collected by the Department of the Interior in Great Smoky Mountains National Park from 1993-2003.
-
-####  Results and Management Implications: 
+#### Management Implications: 
 
 Environmental factors (i.e., temperature, wind, cloud, rain, snow, fog, and moon phase) do not influence estimates of deer density enough to warrant cancelling a deer survey due to inclement weather.
 
