@@ -4,12 +4,7 @@ The objective of this project was to determine if environmental factors influenc
 
 #### Methods: 
 
-Spotlight survey data was collected by the Department of the Interior in Great Smoky Mountains National Park from 1993-2003.  The spotlight survey route was within Cades Cove, Townsend, TN 378882.  Several rows of temperature data was missing.  I replaced missing temperature data with data recorded from the Knoxville airport, which was the closest national weather service station that had data for the missing days. 
-
-#### Results: 
-
-The environmental factors below do not significantly influence estimates of deer density made from spotlight surveys. Temperature was found to be the most influential predictor from a simple linear regression model (SLR) and two optimized machine learning models (i.e., random forest and gradient boosting optimized via GridSearchCV). The R<sup>2</sup> (i.e., proportion of variance explained by the model) of the selected linear model was poor (~ 0.10).  However, temperature was found to be a statistically significant predictor (p < 0.001).  The selected SLR found that for every 1 degree fahreheit increase in temperature, there was a 0.80 decrease in the deer density. Environmental factors: 
-
+Spotlight survey data was collected by the Department of the Interior in Great Smoky Mountains National Park from 1993-2003.  The spotlight survey route was within Cades Cove, Townsend, TN 378882.  Several rows of temperature data was missing.  I replaced missing temperature data with data recorded from the Knoxville airport, which was the closest national weather service station that had data for the missing days. The following environmental variables were recorded:
 * month of the year (numerical)
 * temperature (numerical)
 * wind (boolean)
@@ -18,6 +13,12 @@ The environmental factors below do not significantly influence estimates of deer
 * snow (boolean)
 * fog (boolean)
 * moon phase (categorical)
+
+#### Results: 
+
+The environmental factors below do not significantly influence estimates of deer density made from spotlight surveys. Temperature was found to be the most influential predictor from a simple linear regression model (SLR) and two optimized machine learning models (i.e., random forest and gradient boosting optimized via GridSearchCV). The R<sup>2</sup> (i.e., proportion of variance explained by the model) of the selected linear model was poor (~ 0.10).  However, temperature was found to be a statistically significant predictor (p < 0.001).  The selected SLR found that for every 1 degree fahreheit increase in temperature, there was a 0.80 decrease in the deer density. Environmental factors: 
+
+
 
 #### Management Implications: 
 
