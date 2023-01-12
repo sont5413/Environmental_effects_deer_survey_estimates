@@ -27,6 +27,6 @@ Environmental factors (i.e., temperature, wind, cloud, rain, snow, fog, and moon
 
 A limitation of this study is that the data was not captured at TMD training sites.  Wind, rain, and snow could also be measured in a way that better reflects the variance that these variables produce both directly, in deer movement, and indirectly, in deer density estimates.  For example, wind varies spatially and temporally. That is, wind velocity will vary drastically from one location to another and at different snapshots in time. Ideally, staff would collect wind measurements several times during a survey.  However, this is overly burdensome to staff, and thus, averaging wind measurements taken at the beginning, middle, and end of a survey would suffice.  Capturing rain and snow data could be improved by recording the data as a numerical index instead of boolean.  For example, rain and snow could be an index of 0-5, 0 being no rain/snow, and 5 being heavy rain/snow.  Staff could record rain/snow at the beginning, middle, and end and average these for the survey.  
 
-Figure 1. Relationship between temperature and estimates of deer density in the Great Smoky Mountains, Cades Cove, Townsend, TN 378882.
+**Figure 1**. Relationship between temperature and estimates of deer density in the Great Smoky Mountains, Cades Cove, Townsend, TN 378882.
 ![image](https://user-images.githubusercontent.com/95881308/212176380-c400f147-0081-4860-a83c-2cdf12100d20.png)
 
