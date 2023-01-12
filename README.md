@@ -5,11 +5,11 @@ The environmental factors below do not signiciantly influence estimates of deer 
 * month of the year (numerical)
 * temperature (numerical)
 * wind (boolean)
-* cloud cover (index)
+* cloud cover (categorical)
 * rain (boolean)
 * snow (boolean)
 * fog (boolean)
-* moon phase (index)
+* moon phase (categorical)
 
 #### Dataset: 
 
