@@ -17,7 +17,7 @@ This is deer spotlight survey data collected by the Department of the Interior i
 
 ####  Results and Management Implications: 
 
-Environmental factors (i.e., temperature, wind, cloud, rain, snow, fog, and moon phase) do not influence estimates of deer density enough to warrant cancelling a deer survey due to 
+Environmental factors (i.e., temperature, wind, cloud, rain, snow, fog, and moon phase) do not influence estimates of deer density enough to warrant cancelling a deer survey due to inclement weather.
 
 #### Suggestions for Improvement: 
 
