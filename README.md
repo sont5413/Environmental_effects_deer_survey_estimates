@@ -25,7 +25,7 @@ The optimized random forest regressor and gradient boosting regressor achieved M
 
 Environmental factors (i.e., temperature, wind, cloud, rain, snow, fog, and moon phase) do not influence estimates of deer density enough to warrant cancelling a deer survey due to inclement weather.
 
-#### Suggestions for Improvement: 
+#### Suggestions for Further Investigation: 
 
 A limitation of this study is that the data was not captured at TMD training sites. Wind, rain, and snow could also be measured in ways that better reflect the variance that these variables produce both directly, in deer movement, and indirectly, in deer density estimates. For example, wind velocity varies spatially and temporally. That is, wind velocity will vary drastically from one location to another and at different snapshots in time. Ideally, staff would collect wind measurements several times during a survey. However, this is overly burdensome to staff, and thus, averaging wind measurements taken at the beginning, middle, and end of a survey would suffice. Capturing rain and snow data could be improved by recording the data as a numerical index instead of as a Boolean variable. For example, rain and snow could be an index of 0-5, 0 being no presence of rain/snow, and 5 being heavy rain/snow. Staff could record the index of rain/snow at the beginning, middle, and end and average these three recordings to represent the rain/snow index for the survey.
 
