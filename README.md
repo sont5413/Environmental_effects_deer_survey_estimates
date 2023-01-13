@@ -7,11 +7,11 @@ The objective of this project was to determine if environmental factors influenc
 Spotlight survey data was collected by the Department of the Interior in Great Smoky Mountains National Park from 1993-2003.  The spotlight survey route was within Cades Cove, Townsend, TN 378882.  Several rows of temperature data were missing. Missing temperature data was replaced by data recorded at the Knoxville airport, which was the closest national weather service station that had data for the missing days.  The following environmental variables were recorded:
 * month of the year (numerical)
 * temperature (numerical)
-* wind (boolean)
+* wind (Boolean)
 * cloud cover (categorical)
-* rain (boolean)
-* snow (boolean)
-* fog (boolean)
+* rain (Boolean)
+* snow (Boolean)
+* fog (Boolean)
 * moon phase (categorical)
 
 #### Results: 
@@ -27,7 +27,7 @@ Environmental factors (i.e., temperature, wind, cloud, rain, snow, fog, and moon
 
 #### Suggestions for Improvement: 
 
-A limitation of this study is that the data was not captured at TMD training sites.  Wind, rain, and snow could also be measured in a way that better reflects the variance that these variables produce both directly, in deer movement, and indirectly, in deer density estimates.  For example, wind varies spatially and temporally. That is, wind velocity will vary drastically from one location to another and at different snapshots in time. Ideally, staff would collect wind measurements several times during a survey.  However, this is overly burdensome to staff, and thus, averaging wind measurements taken at the beginning, middle, and end of a survey would suffice.  Capturing rain and snow data could be improved by recording the data as a numerical index instead of boolean.  For example, rain and snow could be an index of 0-5, 0 being no rain/snow, and 5 being heavy rain/snow.  Staff could record rain/snow at the beginning, middle, and end and average these for the survey. 
+A limitation of this study is that the data was not captured at TMD training sites. Wind, rain, and snow could also be measured in ways that better reflect the variance that these variables produce both directly, in deer movement, and indirectly, in deer density estimates. For example, wind varies spatially and temporally. That is, wind velocity will vary drastically from one location to another and at different snapshots in time. Ideally, staff would collect wind measurements several times during a survey. However, this is overly burdensome to staff, and thus, averaging wind measurements taken at the beginning, middle, and end of a survey would suffice. Capturing rain and snow data could be improved by recording the data as a numerical index instead of Boolean. For example, rain and snow could be an index of 0-5, 0 being no presence of rain/snow, and 5 being heavy rain/snow. Staff could record the index of rain/snow at the beginning, middle, and end and average these three recordings to represent the rain/snow index for the survey.
 
 
 **Figure 1**. Scatterplot with regression line of the relationship between temperature and deer density collected from spotlight survey data of white-tailed deer in the Great Smoky Mountains, Cades Cove, Townsend, TN 378882.
