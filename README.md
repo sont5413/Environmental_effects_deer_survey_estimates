@@ -1,6 +1,6 @@
 #### Project Objective
 
-The objective of this project was to determine if environmental factors influence estimates of white-tailed deer density.  The results of this study were intended to improve TMD’s data accuracy and logistics of annual spotlight deer surveys. 
+The objective of this project was to determine if environmental factors influence estimates of white-tailed deer density from spotlight surveys, a standard method in estimating white-tailed deer population abundance. The results of this study are intended to improve TMD’s data accuracy and planning of annual spotlight deer surveys.
 
 #### Methods: 
 
