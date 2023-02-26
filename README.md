@@ -4,7 +4,7 @@ The objective of this project was to determine if environmental factors influenc
 
 #### Methods: 
 
-Spotlight survey data was collected by the Department of the Interior in Great Smoky Mountains National Park from 1993-2003.  The spotlight survey route was within Cades Cove, Townsend, TN 378882.  Several rows of temperature data were missing. Missing temperature data was replaced by data recorded at the Knoxville airport, which was the closest national weather service station that had data for the missing days.  The following environmental variables were recorded:
+Spotlight survey data was collected by the Department of the Interior in Great Smoky Mountains National Park from 1993-2003.  The spotlight survey route was within Cades Cove, Townsend, TN 378882.  Several rows of temperature data were missing. Missing temperature data were replaced by data recorded at the Knoxville airport, which was the closest national weather service station that had data for the missing days.  The following environmental variables were recorded:
 * month of the year (numerical)
 * temperature (numerical)
 * wind (Boolean)
